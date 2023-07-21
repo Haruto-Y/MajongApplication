@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/kirokuButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="#394FC6"
+        android:fontFamily="@font/aoyagireisyosimo_ttf_2_01"
+        android:text="記録"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/eturanButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/eturanButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#9C2D2D"
+        android:fontFamily="@font/aoyagireisyosimo_ttf_2_01"
+        android:text="閲覧"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/greenBack"
+        android:layout_width="1800dp"
+        android:layout_height="3000dp"
+        android:layout_marginTop="-1100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greeeeeen" />
+
+    <TextView
+
+        android:id="@+id/logoView"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aoyagireisyosimo_ttf_2_01"
+        android:gravity="center_horizontal|fill_vertical"
+        android:text="記戦麻"
+        android:textColor="#040303"
+        android:textSize="110sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/logoView2"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:fontFamily="@font/aoyagireisyosimo_ttf_2_01"
+        android:gravity="center_horizontal|fill_vertical"
+        android:text="録績雀"
+        android:textColor="#000000"
+        android:textSize="110sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoView" />
+
+    <TextView
+
+        android:id="@+id/logoView3"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:fontFamily="@font/aoyagireisyosimo_ttf_2_01"
+        android:gravity="center_horizontal|fill_vertical"
+        android:text="　　雀"
+        android:textColor="#F10707"
+        android:textSize="110sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236082663062",
+    "project_id": "mahjongfirebase",
+    "storage_bucket": "mahjongfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236082663062:android:724a0edf3b7be27de33cb7",
+        "android_client_info": {
+          "package_name": "com.example.majongapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236082663062-mg7m75mm6l0q8fkc2af8o7psiusrpka4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBTenJT-dZrv9D0q_JHczW6VmI87Lua1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236082663062-mg7m75mm6l0q8fkc2af8o7psiusrpka4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
